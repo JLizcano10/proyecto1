@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario para ejercicio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Inicio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tabla.html">Tabla</a></li>
+          <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Formulario</h2>
+      <form action="">
+        <div>
+          <label for="name">Nombre completo:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="name"
+            placeholder="Ingresa tu nombre aquí"
+          />
+        </div>
+        <div>
+          <label for="description">Descripcion:</label>
+          <textarea
+            name="descripcion"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+        </div>
+        <div>
+          <label for="motive">Motivo:</label>
+          <select name="motivo" id="motive">
+            <option value="peticion">Petición</option>
+            <option value="queja">Queja</option>
+            <option value="reclamo">Reclamo</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer>Página de ejercicio - JL &copy; 2023.</footer>
+  </body>
+</html>
